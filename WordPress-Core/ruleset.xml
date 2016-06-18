@@ -22,12 +22,12 @@
 	<rule ref="Generic.PHP.LowerCaseConstant"/>
 
 	<!-- http://make.wordpress.org/core/handbook/coding-standards/php/#indentation -->
-	<arg name="tab-width" value="4"/>
-	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+	<arg name="tab-width" value="2"/>
+	<rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
 	<rule ref="Generic.WhiteSpace.ScopeIndent">
 		<properties>
-			<property name="indent" value="4"/>
-			<property name="tabIndent" value="true"/>
+			<property name="indent" value="2"/>
+			<property name="spaceIndent" value="true"/>
 		</properties>
 	</rule>
 
@@ -38,7 +38,7 @@
 	<rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
 		<severity>0</severity>
 	</rule>
-	
+
 	<rule ref="Generic.PHP.LowerCaseKeyword"/>
 
 	<rule ref="Generic.Files.LineEndings">
