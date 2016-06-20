@@ -21,14 +21,14 @@ class WordPress_Sniffs_VIP_FileSystemWritesDisallowSniff extends Generic_Sniffs_
 	 * @var array(string => string|null)
 	 */
 	public $forbiddenFunctions = array(
-										'file_put_contents' => null,
+										// 'file_put_contents' => null,
 										'fwrite'            => null,
-										'fputcsv'           => null,
+										// 'fputcsv'           => null,
 										'fputs'             => null,
 										'ftruncate'         => null,
 										'link'              => null,
 										'symlink'           => null,
-										'mkdir'             => null,
+										// 'mkdir'             => null,
 										'rename'            => null,
 										'rmdir'             => null,
 										'tempnam'           => null,
